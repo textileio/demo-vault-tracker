@@ -8,4 +8,4 @@ coverage:
 	pipenv run pytest --cov --cov-fail-under=100
 
 run:
-	pipenv run python -m vaults_tracker.__main__ $(n)
+	pipenv run python -m vaults_tracker.__main__ 

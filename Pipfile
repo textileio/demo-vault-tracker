@@ -7,6 +7,12 @@ verify_ssl = true
 python_version = "3.12"
 
 [packages]
+requests = "*"
+logging = "*"
+rich = "*"
+web3 = "*"
+typing = "*"
+types-requests = "*"
 
 [dev-packages]
 black = "==22.3.0"
