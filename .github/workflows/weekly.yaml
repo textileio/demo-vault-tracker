@@ -17,29 +17,29 @@ jobs:
               uses: actions/checkout@v2 # Checkout the repository content to github runner.
 
             - name: Set up python
-              uses: actions/setup-python@v2 # Set up the python 3.10 environment
+              uses: actions/setup-python@v1 # Set up the python 3.10 environment
               with:
-                  python-version: "3.10"
+                  python-version: "3.12"
 
-            - name: Install pipx
-              run: python3 -m pip install --user pipx
-                  python3 -m pipx ensurepath
-
-            - name: Install python dependencies
+            - name: Install dependencies with pipenv
               run: |
-                  make install
-
-            - name: Set up pipenv hooks
-              run: |
-                  make setup
+                  pip install pipenv
+                  pipenv install --deploy --dev
 
             - name: Execute python script # Run the main.py script to get the latest data
               run: |
                   make run
 
+            - name: Post script cleanup
+              run: |
+                  pipenv run isort --diff .
+                  pipenv run black --check .
+                  pipenv run flake8
+                  pipenv run mypy
+
             - name: Commit changes
               uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: "chore: weekly stats update"
-                  file_pattern: "Data.md store.json"
+                  file_pattern: "Data.md state.json"
                   commit_user_name: "vaults[bot]"
