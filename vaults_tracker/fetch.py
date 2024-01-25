@@ -1,6 +1,7 @@
 from json import JSONDecodeError, loads
 from logging import INFO, basicConfig, getLogger
 from pathlib import Path
+from traceback import format_exc
 from typing import Any, Dict, List
 
 from requests import get
@@ -23,13 +24,19 @@ log = getLogger("rich")
 
 
 def get_w3() -> Web3:
-    url = "https://api.calibration.node.glif.io/rpc/v1"
+    url = "https://rpc.ankr.com/filecoin_testnet"
     return Web3(Web3.HTTPProvider(url))
+
+
+def get_block_timestamp(block_num: int) -> int:
+    w3 = get_w3()
+    block = w3.eth.get_block(block_num)
+    return block["timestamp"]
 
 
 def get_contract_create_events(
     start_block: int, end_block: int
-) -> List[Dict[str, Any]]:
+) -> List[List[Dict[str, Any]]]:
     """
     Get all vault creators from the Basin API.
     event PubCreated(string indexed pub, address indexed owner);
@@ -44,7 +51,7 @@ def get_contract_create_events(
     """
     try:
         w3 = get_w3()
-        abi_file = Path(__file__).parent / "abi.json"
+        abi_file = Path(__file__).parent.parent / "abi.json"
         with open(abi_file, "r") as basin_abi:
             abi = loads(basin_abi.read())
         new_vault_event = "PubCreated"
@@ -56,15 +63,21 @@ def get_contract_create_events(
         # First Basin contract call was at block 1076346
         # Node provider can only look back 30 days, though—1224694 is Jan 1,
         # 2024
-        events = contract.events[new_vault_event].get_logs(  # type: ignore[attr-defined]
-            fromBlock=start_block, toBlock=end_block
-        )
+        chunks = chunk_block_range(start_block, end_block)
+        events = []
+        for chunk in chunks:
+            new_events = contract.events[new_vault_event].get_logs(  # type: ignore[attr-defined]
+                fromBlock=chunk["start_block"], toBlock=chunk["end_block"]
+            )
+            if new_events:
+                events.append(new_events)
         return events
 
     except ValueError as e:
         if "lookbacks of more than 720h0m0s are disallowed" in str(e):
             log.error("Block range exceeds 30 days")
         log.exception(e)
+        log.error(format_exc())
         raise
 
     except Exception as e:
@@ -72,10 +85,13 @@ def get_contract_create_events(
             f"Error getting contract create events for range: {start_block}, {end_block}"
         )
         log.exception(e)
+        log.error(format_exc())
         raise
 
 
-def get_vault_owners(contract_events: List[Dict[str, Any]]) -> List[str]:
+def get_data_from_events(
+    contract_events: List[List[Dict[str, Any]]]
+) -> List[Dict[str, Any]]:
     """
     Get all vault owners from the Basin API.
 
@@ -89,19 +105,23 @@ def get_vault_owners(contract_events: List[Dict[str, Any]]) -> List[str]:
     """
     try:
         owners = []
-        for item in contract_events:
-            args = item["args"]
-            owner = args["owner"]
-            owners.append(owner)
+        for events in contract_events:
+            for event in events:
+                args = event["args"]
+                owner = args["owner"]
+                vault = args["pub"]
+                block_num = event["blockNumber"]
+                owners.append(
+                    {"owner": owner, "vault_hash": vault.hex(), "block_num": block_num}
+                )
 
-        # Remove duplicates
-        owners = list(set(owners))
         return owners
 
     except Exception as e:
         error_msg = f"Error getting vault owners: {e}"
-        log.error(error_msg)
-        raise Exception
+        log.exception(error_msg)
+        log.error(format_exc())
+        raise
 
 
 def get_vaults(address: str) -> List[str]:
@@ -136,10 +156,12 @@ def get_vaults(address: str) -> List[str]:
     except RequestException as e:
         error_msg = f"Error getting vaults: {e}"
         log.exception(e)
+        log.error(format_exc())
         raise
     except JSONDecodeError as e:
         error_msg = f"JSON decoding error for vault: {e}"
         log.exception(error_msg)
+        log.error(format_exc())
         raise
 
 
@@ -164,35 +186,29 @@ def get_latest_valid_block() -> int:
     except BlockNotFound as e:
         error_msg = f"Error getting latest valid block '{latest_block}': {e}"
         log.exception(error_msg)
+        log.error(format_exc())
         raise
 
 
-def get_preceding_block_by_n_hours(end_block: int, hours: int) -> int:
-    """
-    Get the last mined block from the Basin API.
-
-    Returns
-    -------
-        int: The last mined block.
-
-    Raises
-    ------
-        Exception: If there is an error getting the last mined block.
-    """
-    block_time = 30  # Blocks are mined every 30 seconds
-    blocks_per_hour = 3600 // block_time
-    blocks_per_window = blocks_per_hour * hours
-
-    return end_block - blocks_per_window
-
-
-def check_block_range_is_valid(start_block: int, end_block: int) -> None:
+def chunk_block_range(start_block: int, end_block: int) -> List[Dict[str, int]]:
     """
     Check if the block range is within 60480 block limit imposed by the
         Web3 events API.
     """
     block_range = end_block - start_block
-    if (block_range) > 60480:
-        error_msg = f"Block range exceeds 60480: {start_block} to {end_block}; block_range: {block_range}"
-        log.exception(error_msg)
-        raise
+    if (block_range) > 2880:
+        msg = f"Block range exceeds 2880: {start_block} to {end_block}; block_range: {block_range}"
+        log.info(msg)
+        start_chunk = start_block
+        end_final = end_block
+        chunks = []
+        while block_range > 0:
+            end_chunk = start_chunk + 2880  # Block range max is 2880
+            if end_chunk > end_final:
+                end_chunk = end_final
+            chunks.append({"start_block": start_chunk, "end_block": end_chunk})
+            start_chunk = end_chunk + 1
+            block_range = end_final - start_chunk
+        return chunks
+    else:
+        return [{"start_block": start_block, "end_block": end_block}]
