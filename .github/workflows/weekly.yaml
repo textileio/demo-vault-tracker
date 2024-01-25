@@ -1,0 +1,45 @@
+name: weekly
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 0 * * 1" # Run every Monday at midnight UTC
+
+permissions:
+    contents: write
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repo content
+              uses: actions/checkout@v2 # Checkout the repository content to github runner.
+
+            - name: Set up python
+              uses: actions/setup-python@v2 # Set up the python 3.10 environment
+              with:
+                  python-version: "3.10"
+
+            - name: Install pipx
+              run: python3 -m pip install --user pipx
+                  python3 -m pipx ensurepath
+
+            - name: Install python dependencies
+              run: |
+                  make install
+
+            - name: Set up pipenv hooks
+              run: |
+                  make setup
+
+            - name: Execute python script # Run the main.py script to get the latest data
+              run: |
+                  make run
+
+            - name: Commit changes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: "chore: weekly stats update"
+                  file_pattern: "Data.md store.json"
+                  commit_user_name: "vaults[bot]"
