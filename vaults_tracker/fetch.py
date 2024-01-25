@@ -1,3 +1,4 @@
+"""Fetch vault data from the Basin contract and the Basin API."""
 from json import JSONDecodeError, loads
 from logging import INFO, basicConfig, getLogger
 from pathlib import Path
@@ -24,11 +25,13 @@ log = getLogger("rich")
 
 
 def get_w3() -> Web3:
+    """Retrieve an instance of Web3 at Filecoin Calibration testnet."""
     url = "https://rpc.ankr.com/filecoin_testnet"
     return Web3(Web3.HTTPProvider(url))
 
 
 def get_block_timestamp(block_num: int) -> int:
+    """Get the timestamp for a block number."""
     w3 = get_w3()
     block = w3.eth.get_block(block_num)
     return block["timestamp"]
@@ -38,16 +41,20 @@ def get_contract_create_events(
     start_block: int, end_block: int
 ) -> List[List[Dict[str, Any]]]:
     """
-    Get all vault creators from the Basin API.
-    event PubCreated(string indexed pub, address indexed owner);
+    Get all vault event info from the Basin contract's `PubCreated` event.
+
+    Parameters
+    ----------
+        start_block (int): The block to start at.
+        end_block (int): The block to end at.
 
     Returns
     -------
-        List[str]: The list of vault creators.
+        List[List[Dict[str, Any]]]: The list of raw event logs.
 
     Raises
     ------
-        Exception: If there is an error getting the vault creators.
+        Exception: If there is an error getting the vault events.
     """
     try:
         w3 = get_w3()
@@ -60,9 +67,6 @@ def get_contract_create_events(
         )
         contract = w3.eth.contract(address=basin_address, abi=abi)
 
-        # First Basin contract call was at block 1076346
-        # Node provider can only look back 30 days, though—1224694 is Jan 1,
-        # 2024
         chunks = chunk_block_range(start_block, end_block)
         events = []
         for chunk in chunks:
@@ -93,11 +97,13 @@ def get_data_from_events(
     contract_events: List[List[Dict[str, Any]]]
 ) -> List[Dict[str, Any]]:
     """
-    Get all vault owners from the Basin API.
+    Get log data for each vault create event, including vault creator, vault
+    hash (keccak), and block number of the event.
 
     Returns
     -------
-        List[str]: The list of vault owners.
+        List[Dict[str, Any]]: The list of vault creators, the vault hash,
+        and the block number of the event.
 
     Raises
     ------
@@ -126,16 +132,16 @@ def get_data_from_events(
 
 def get_vaults(address: str) -> List[str]:
     """
-    Get all vaults for a namespace creator at `address`. For example, the
+    Get all vaults for a vault creator at `address`. For example, the
     creator of `xm_data.p1` is `0xfc7C55c4A9e30A4e23f0e48bd5C1e4a865dA06C5`.
 
     Parameters
     ----------
-        address (str): The address of the namespace creator.
+        address (str): The address of the vault creator.
 
     Returns
     -------
-        List[str]: The list of vaults for the namespace.
+        List[str]: The list of vaults for the address.
 
     Raises
     ------
@@ -167,7 +173,7 @@ def get_vaults(address: str) -> List[str]:
 
 def get_latest_valid_block() -> int:
     """
-    Get the last mined block from the Basin API.
+    Get the last mined block, minus 5 blocks to combat reorgs.
 
     Returns
     -------
@@ -192,13 +198,24 @@ def get_latest_valid_block() -> int:
 
 def chunk_block_range(start_block: int, end_block: int) -> List[Dict[str, int]]:
     """
-    Check if the block range is within 60480 block limit imposed by the
-        Web3 events API.
+    Chunk the block range into 2880 block chunks (the max that web.py can handle
+    for a single `get_logs` call).
+
+    Parameters
+    ----------
+        start_block (int): The block to start at.
+        end_block (int): The block to end at.
+
+    Returns
+    -------
+        List[Dict[str, int]]: The list of block chunks.
+
+    Raises
+    ------
+        Exception: If there is an error chunking the block range.
     """
     block_range = end_block - start_block
     if (block_range) > 2880:
-        msg = f"Block range exceeds 2880: {start_block} to {end_block}; block_range: {block_range}"
-        log.info(msg)
         start_chunk = start_block
         end_final = end_block
         chunks = []

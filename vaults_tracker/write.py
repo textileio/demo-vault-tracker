@@ -1,3 +1,4 @@
+"""Write the state of all runs and vaults to a state & markdown file."""
 from collections import OrderedDict
 from datetime import datetime
 from json import dump, load
@@ -25,12 +26,17 @@ log = getLogger("rich")
 
 def get_saved_state() -> Dict[Any, Any]:
     """
-    Get the state from a file.
+    Get the state of all runs and vaults from a file.
 
     Returns
     -------
-    list[dict[str, list[str]]]
+    dict
         The state.
+
+    Raises
+    ------
+    Exception
+        If there is an error getting the state.
     """
     try:
         state_file = Path(__file__).parent.parent / "state.json"
@@ -43,23 +49,34 @@ def get_saved_state() -> Dict[Any, Any]:
         raise
 
 
-def write_to_state(new_run: dict, vaults: list) -> None:
+def write_to_state(
+    new_run: Dict[int, Dict[str, Any] | dict[str, Any]], vaults: List
+) -> None:
     """
-    Write the state to a file.
+    Write the runs and vaults state to a file.
 
     Parameters
     ----------
-    state : list[dict[str, list[str]]]
-        The state to write.
+    new_run : dict
+        The new run to write.
+    vaults : list
+        The vaults to write.
+
+    Returns
+    -------
+    None
+
+    Raises
+    ------
+    Exception
+        If there is an error writing to the state.
     """
     try:
         state_file = Path(__file__).parent.parent / "state.json"
-
-        # Read the existing state from the file
         with open(state_file, "r") as f:
             state = load(f)
 
-        # Add the new entry to the state
+        # Update current state with new run and all vaults
         state["vaults"] = merge_vaults(state["vaults"], vaults)
         state["runs"].update(new_run)
 
@@ -79,13 +96,21 @@ def merge_vaults(
 
     Parameters
     ----------
-    state_vaults : dict
-        The state_vaults containing all entries.
+    state_vaults : list
+        The state vaults to merge.
+
+    new_vaults : list
+        The new vaults to merge.
 
     Returns
     -------
-    dict
-        The merged 'new_vaults' data.
+    list
+        The merged vaults.
+
+    Raises
+    ------
+    Exception
+        If there is an error merging the vaults.
     """
     # Convert lists of dictionaries to OrderedDicts
     dict1 = OrderedDict((k, v) for d in state_vaults for k, v in d.items())
@@ -108,21 +133,34 @@ def merge_vaults(
 
 def write_to_markdown(state: dict, end_block: int) -> None:
     """
-    Write the state to a markdown file.
+    Write the state of all vaults to a markdown file.
 
     Parameters
     ----------
     state : dict
         The state to write.
+    end_block : int
+        The end block of the run.
+
+    Returns
+    -------
+    None
+
+    Raises
+    ------
+    Exception
+        If there is an error writing to markdown.
     """
     try:
         markdown_file = Path(__file__).parent.parent / "Data.md"
         with open(markdown_file, "w") as f:
             f.write("# Basin Vaults Tracker\n\n")
+            # Document the timestamp of the latest block used
             run_timestamp = get_block_timestamp(end_block)
             run_date = datetime.fromtimestamp(run_timestamp)
             formatted_run_date = run_date.strftime("%Y-%m-%d")
             f.write(f"Last updated: {formatted_run_date}\n\n")
+            # Show each vault owner, their vaults, & links to events API
             f.write("## Vaults by owner\n\n")
             for vault in state["vaults"]:
                 for owner, vaults in vault.items():
