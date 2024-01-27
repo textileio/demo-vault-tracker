@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-01-26
+Last updated: 2024-01-27
 
 ## Vaults by owner
 
