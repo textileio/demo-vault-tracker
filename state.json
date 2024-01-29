@@ -83,6 +83,11 @@
             "start_block": 1299614,
             "end_block": 1302500,
             "events_data": []
+        },
+        "1305376": {
+            "start_block": 1302501,
+            "end_block": 1305376,
+            "events_data": []
         }
     }
 }
