@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-01-30
+Last updated: 2024-01-31
 
 ## Vaults by owner
 
@@ -21,6 +21,7 @@ Last updated: 2024-01-30
 | w_tst2.data | [Events](https://basin.tableland.xyz/vaults/w_tst2.data/events) |
 | w_tst3.data | [Events](https://basin.tableland.xyz/vaults/w_tst3.data/events) |
 | w_tst4.data | [Events](https://basin.tableland.xyz/vaults/w_tst4.data/events) |
+| w_tst5.data | [Events](https://basin.tableland.xyz/vaults/w_tst5.data/events) |
 
 ### [0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6](https://basin.tableland.xyz/vaults?account=0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6)
 

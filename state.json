@@ -13,7 +13,8 @@
                 "w_tst1.data",
                 "w_tst2.data",
                 "w_tst3.data",
-                "w_tst4.data"
+                "w_tst4.data",
+                "w_tst5.data"
             ]
         },
         {
@@ -93,6 +94,17 @@
             "start_block": 1305377,
             "end_block": 1308254,
             "events_data": []
+        },
+        "1311136": {
+            "start_block": 1308255,
+            "end_block": 1311136,
+            "events_data": [
+                {
+                    "owner": "0x635285e3d83ba6723E7b23840b324b2a7A6532bC",
+                    "vault_hash": "683663e75dcd3ca4754f653b19591a9cf26447353a4e790e25adee4bb4111c80",
+                    "block_num": 1309531
+                }
+            ]
         }
     }
 }
