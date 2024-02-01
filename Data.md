@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-01-31
+Last updated: 2024-02-01
 
 ## Vaults by owner
 
@@ -22,6 +22,7 @@ Last updated: 2024-01-31
 | w_tst3.data | [Events](https://basin.tableland.xyz/vaults/w_tst3.data/events) |
 | w_tst4.data | [Events](https://basin.tableland.xyz/vaults/w_tst4.data/events) |
 | w_tst5.data | [Events](https://basin.tableland.xyz/vaults/w_tst5.data/events) |
+| w_tst6.data | [Events](https://basin.tableland.xyz/vaults/w_tst6.data/events) |
 
 ### [0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6](https://basin.tableland.xyz/vaults?account=0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6)
 
@@ -48,4 +49,37 @@ Last updated: 2024-01-31
 | api14.test | [Events](https://basin.tableland.xyz/vaults/api14.test/events) |
 | api18.test | [Events](https://basin.tableland.xyz/vaults/api18.test/events) |
 | api20.test | [Events](https://basin.tableland.xyz/vaults/api20.test/events) |
+
+### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
+
+| Vault | Events |
+| --- | --- |
+| wx_data.p2 | [Events](https://basin.tableland.xyz/vaults/wx_data.p2/events) |
+| wx_data.p3 | [Events](https://basin.tableland.xyz/vaults/wx_data.p3/events) |
+| xm_data.p3 | [Events](https://basin.tableland.xyz/vaults/xm_data.p3/events) |
+| xm_data.p4 | [Events](https://basin.tableland.xyz/vaults/xm_data.p4/events) |
+| xm_data.p5 | [Events](https://basin.tableland.xyz/vaults/xm_data.p5/events) |
+| wx_data.p4 | [Events](https://basin.tableland.xyz/vaults/wx_data.p4/events) |
+| wx_datasadasds.p4 | [Events](https://basin.tableland.xyz/vaults/wx_datasadasds.p4/events) |
+| xm_data.p2 | [Events](https://basin.tableland.xyz/vaults/xm_data.p2/events) |
+| xm_data.t1 | [Events](https://basin.tableland.xyz/vaults/xm_data.t1/events) |
+| xm_data.t2 | [Events](https://basin.tableland.xyz/vaults/xm_data.t2/events) |
+| xm_data.t3 | [Events](https://basin.tableland.xyz/vaults/xm_data.t3/events) |
+| my_test.t1 | [Events](https://basin.tableland.xyz/vaults/my_test.t1/events) |
+| pub1_nik.t1 | [Events](https://basin.tableland.xyz/vaults/pub1_nik.t1/events) |
+| w_ttt1.data | [Events](https://basin.tableland.xyz/vaults/w_ttt1.data/events) |
+| www_ttt2.data | [Events](https://basin.tableland.xyz/vaults/www_ttt2.data/events) |
+
+### [0xd44d91b83f02Fc7Fcb31eb11A859B9f480907494](https://basin.tableland.xyz/vaults?account=0xd44d91b83f02Fc7Fcb31eb11A859B9f480907494)
+
+| Vault | Events |
+| --- | --- |
+| w_ttt2.data | [Events](https://basin.tableland.xyz/vaults/w_ttt2.data/events) |
+| www_ttt1.data | [Events](https://basin.tableland.xyz/vaults/www_ttt1.data/events) |
+
+### [0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0](https://basin.tableland.xyz/vaults?account=0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0)
+
+| Vault | Events |
+| --- | --- |
+| wxm.weather_data_dev | [Events](https://basin.tableland.xyz/vaults/wxm.weather_data_dev/events) |
 
