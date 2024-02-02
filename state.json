@@ -70,7 +70,10 @@
         },
         {
             "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0": [
-                "wxm.weather_data_dev"
+                "wxm.weather_data_dev",
+                "wxm.rewards_merkel_trees_dev",
+                "wxm_tst.rewards_merkel_trees_dev",
+                "wxm.rewards_merkle_trees_dev"
             ]
         }
     ],
@@ -170,6 +173,27 @@
                     "owner": "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0",
                     "vault_hash": "740c79f3aa708be27a2d5aa0c0bb12b600960e2c49a68be3c81db5fd336acd75",
                     "block_num": 1312949
+                }
+            ]
+        },
+        "1316895": {
+            "start_block": 1314020,
+            "end_block": 1316895,
+            "events_data": [
+                {
+                    "owner": "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0",
+                    "vault_hash": "e574d65430b2aa088aac5689566a279d7f15d25cd6fd6192f3ee6125e37d53a1",
+                    "block_num": 1315457
+                },
+                {
+                    "owner": "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0",
+                    "vault_hash": "e3ca8e465d051976ad8e2716bcd894a6b33defa9efa345c8d5ab044131005d73",
+                    "block_num": 1315754
+                },
+                {
+                    "owner": "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0",
+                    "vault_hash": "61c7e1639ccd6d788ca96701f4d6f1b2b6f540f88f992759b499055b4fceea84",
+                    "block_num": 1315815
                 }
             ]
         }

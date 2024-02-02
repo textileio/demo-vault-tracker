@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-01
+Last updated: 2024-02-02
 
 ## Vaults by owner
 
@@ -82,4 +82,7 @@ Last updated: 2024-02-01
 | Vault | Events |
 | --- | --- |
 | wxm.weather_data_dev | [Events](https://basin.tableland.xyz/vaults/wxm.weather_data_dev/events) |
+| wxm.rewards_merkel_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm.rewards_merkel_trees_dev/events) |
+| wxm_tst.rewards_merkel_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm_tst.rewards_merkel_trees_dev/events) |
+| wxm.rewards_merkle_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm.rewards_merkle_trees_dev/events) |
 
