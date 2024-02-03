@@ -75,6 +75,19 @@
                 "wxm_tst.rewards_merkel_trees_dev",
                 "wxm.rewards_merkle_trees_dev"
             ]
+        },
+        {
+            "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e": [
+                "demo.basin_table",
+                "demo.basin_parquet",
+                "demo.basin_cache",
+                "api16.test",
+                "d.test_1",
+                "demo.test_2",
+                "cache_retrieve.test",
+                "test_cast1.fids",
+                "test_cast2.fids"
+            ]
         }
     ],
     "runs": {
@@ -194,6 +207,22 @@
                     "owner": "0x75c9eCb5309d068f72f545F3fbc7cCD246016fE0",
                     "vault_hash": "61c7e1639ccd6d788ca96701f4d6f1b2b6f540f88f992759b499055b4fceea84",
                     "block_num": 1315815
+                }
+            ]
+        },
+        "1319776": {
+            "start_block": 1316896,
+            "end_block": 1319776,
+            "events_data": [
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "cdb730142b88aa49bad505bee4a6bd78db63c08f35ad1528fe34f2316beba7c9",
+                    "block_num": 1319409
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "c94ed17ac57fa275ea31ae9a9534692c73faf6a3aa972a5fda7c958d340c47d4",
+                    "block_num": 1319421
                 }
             ]
         }

@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-02
+Last updated: 2024-02-03
 
 ## Vaults by owner
 
@@ -85,4 +85,18 @@ Last updated: 2024-02-02
 | wxm.rewards_merkel_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm.rewards_merkel_trees_dev/events) |
 | wxm_tst.rewards_merkel_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm_tst.rewards_merkel_trees_dev/events) |
 | wxm.rewards_merkle_trees_dev | [Events](https://basin.tableland.xyz/vaults/wxm.rewards_merkle_trees_dev/events) |
+
+### [0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e](https://basin.tableland.xyz/vaults?account=0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e)
+
+| Vault | Events |
+| --- | --- |
+| demo.basin_table | [Events](https://basin.tableland.xyz/vaults/demo.basin_table/events) |
+| demo.basin_parquet | [Events](https://basin.tableland.xyz/vaults/demo.basin_parquet/events) |
+| demo.basin_cache | [Events](https://basin.tableland.xyz/vaults/demo.basin_cache/events) |
+| api16.test | [Events](https://basin.tableland.xyz/vaults/api16.test/events) |
+| d.test_1 | [Events](https://basin.tableland.xyz/vaults/d.test_1/events) |
+| demo.test_2 | [Events](https://basin.tableland.xyz/vaults/demo.test_2/events) |
+| cache_retrieve.test | [Events](https://basin.tableland.xyz/vaults/cache_retrieve.test/events) |
+| test_cast1.fids | [Events](https://basin.tableland.xyz/vaults/test_cast1.fids/events) |
+| test_cast2.fids | [Events](https://basin.tableland.xyz/vaults/test_cast2.fids/events) |
 
