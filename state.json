@@ -88,6 +88,12 @@
                 "test_cast1.fids",
                 "test_cast2.fids"
             ]
+        },
+        {
+            "0x61e7F088d1A049280C8De17c7237635F9AC3849e": [
+                "d_test1.v",
+                "d_test2.fids"
+            ]
         }
     ],
     "runs": {
@@ -230,6 +236,22 @@
             "start_block": 1319777,
             "end_block": 1322660,
             "events_data": []
+        },
+        "1325537": {
+            "start_block": 1322661,
+            "end_block": 1325537,
+            "events_data": [
+                {
+                    "owner": "0x61e7F088d1A049280C8De17c7237635F9AC3849e",
+                    "vault_hash": "e9a4f72b7c2e242e8109fa7ae3874e24faaa7568a706ddbfe2368f4df0a8fcf7",
+                    "block_num": 1325137
+                },
+                {
+                    "owner": "0x61e7F088d1A049280C8De17c7237635F9AC3849e",
+                    "vault_hash": "dc17882068baf3ec81614283f0b18b3b6ef1702e00a97a80ad5fb5d592327a52",
+                    "block_num": 1325161
+                }
+            ]
         }
     }
 }
