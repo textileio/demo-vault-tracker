@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-05
+Last updated: 2024-02-06
 
 ## Vaults by owner
 
@@ -99,6 +99,9 @@ Last updated: 2024-02-05
 | cache_retrieve.test | [Events](https://basin.tableland.xyz/vaults/cache_retrieve.test/events) |
 | test_cast1.fids | [Events](https://basin.tableland.xyz/vaults/test_cast1.fids/events) |
 | test_cast2.fids | [Events](https://basin.tableland.xyz/vaults/test_cast2.fids/events) |
+| d_test4.signers | [Events](https://basin.tableland.xyz/vaults/d_test4.signers/events) |
+| test_cast_1.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_1.fids/events) |
+| test_cast_2.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_2.fids/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 

@@ -86,7 +86,10 @@
                 "demo.test_2",
                 "cache_retrieve.test",
                 "test_cast1.fids",
-                "test_cast2.fids"
+                "test_cast2.fids",
+                "d_test4.signers",
+                "test_cast_1.fids",
+                "test_cast_2.fids"
             ]
         },
         {
@@ -250,6 +253,27 @@
                     "owner": "0x61e7F088d1A049280C8De17c7237635F9AC3849e",
                     "vault_hash": "dc17882068baf3ec81614283f0b18b3b6ef1702e00a97a80ad5fb5d592327a52",
                     "block_num": 1325161
+                }
+            ]
+        },
+        "1328415": {
+            "start_block": 1325538,
+            "end_block": 1328415,
+            "events_data": [
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "39705a5fc43f54143332624f74933b5634f65418cb26f47e3ef9675946726e83",
+                    "block_num": 1325981
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "acac7de5a903c57c1d9f36b20a2120b5549826fff4a7c1c9d9bb338fe1c24eab",
+                    "block_num": 1326033
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "f9323c626c82e13e5c9e6410f9146aca9ec9df4a525d82272cdb5180b999b8cc",
+                    "block_num": 1326067
                 }
             ]
         }
