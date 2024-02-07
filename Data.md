@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-06
+Last updated: 2024-02-07
 
 ## Vaults by owner
 
@@ -49,6 +49,8 @@ Last updated: 2024-02-06
 | api14.test | [Events](https://basin.tableland.xyz/vaults/api14.test/events) |
 | api18.test | [Events](https://basin.tableland.xyz/vaults/api18.test/events) |
 | api20.test | [Events](https://basin.tableland.xyz/vaults/api20.test/events) |
+| api23.test | [Events](https://basin.tableland.xyz/vaults/api23.test/events) |
+| api24.test | [Events](https://basin.tableland.xyz/vaults/api24.test/events) |
 
 ### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
 
@@ -102,6 +104,8 @@ Last updated: 2024-02-06
 | d_test4.signers | [Events](https://basin.tableland.xyz/vaults/d_test4.signers/events) |
 | test_cast_1.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_1.fids/events) |
 | test_cast_2.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_2.fids/events) |
+| test_sig_1.signatures | [Events](https://basin.tableland.xyz/vaults/test_sig_1.signatures/events) |
+| test_sig_2.signatures | [Events](https://basin.tableland.xyz/vaults/test_sig_2.signatures/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 
@@ -109,4 +113,23 @@ Last updated: 2024-02-06
 | --- | --- |
 | d_test1.v | [Events](https://basin.tableland.xyz/vaults/d_test1.v/events) |
 | d_test2.fids | [Events](https://basin.tableland.xyz/vaults/d_test2.fids/events) |
+
+### [0x2A350680FfA2085db31067f23210FD8fbFA049C5](https://basin.tableland.xyz/vaults?account=0x2A350680FfA2085db31067f23210FD8fbFA049C5)
+
+| Vault | Events |
+| --- | --- |
+| testavichalp2.data | [Events](https://basin.tableland.xyz/vaults/testavichalp2.data/events) |
+| avichalptest8.pg_numtypes | [Events](https://basin.tableland.xyz/vaults/avichalptest8.pg_numtypes/events) |
+| avichalptest8.pg_numarraytypes | [Events](https://basin.tableland.xyz/vaults/avichalptest8.pg_numarraytypes/events) |
+| avichalptest.pg_numarraytypes | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_numarraytypes/events) |
+| avichalptest.pg_numtypes_1 | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_numtypes_1/events) |
+| avichalptest.pg_bytetypes | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_bytetypes/events) |
+| avichalptest.pg_bytearraytypes | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_bytearraytypes/events) |
+| avichalptest.pg_bytearraytypes_1 | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_bytearraytypes_1/events) |
+| avichalptest.pg_bytearraytypes_2 | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_bytearraytypes_2/events) |
+| avichalptest.pg_datetypes | [Events](https://basin.tableland.xyz/vaults/avichalptest.pg_datetypes/events) |
+| avichalptest.test_timestamp | [Events](https://basin.tableland.xyz/vaults/avichalptest.test_timestamp/events) |
+| avichalpfarcaster.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster.chain_events/events) |
+| avichalpfarcaster2.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster2.chain_events/events) |
+| avichalpfarcaster3.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster3.chain_events/events) |
 
