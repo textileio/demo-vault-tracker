@@ -42,7 +42,9 @@
                 "api18.test",
                 "api20.test",
                 "api23.test",
-                "api24.test"
+                "api24.test",
+                "api25.test",
+                "api28.test"
             ]
         },
         {
@@ -337,6 +339,22 @@
                     "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
                     "vault_hash": "48b6614ebfc0a103309702ed01df1d43cb043b7b16021f11e6b302602790b86e",
                     "block_num": 1330776
+                }
+            ]
+        },
+        "1334175": {
+            "start_block": 1331293,
+            "end_block": 1334175,
+            "events_data": [
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "3f08ea4cba328d71f0a1f02a18632ba1aa0e97abbe2c8663868dfa44e10e13d7",
+                    "block_num": 1332962
+                },
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "94351da917e21fa8cf92e725e19b6ed76d6253f747c477299a551eef9c3406dc",
+                    "block_num": 1333562
                 }
             ]
         }

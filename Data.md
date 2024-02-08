@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-07
+Last updated: 2024-02-08
 
 ## Vaults by owner
 
@@ -51,6 +51,8 @@ Last updated: 2024-02-07
 | api20.test | [Events](https://basin.tableland.xyz/vaults/api20.test/events) |
 | api23.test | [Events](https://basin.tableland.xyz/vaults/api23.test/events) |
 | api24.test | [Events](https://basin.tableland.xyz/vaults/api24.test/events) |
+| api25.test | [Events](https://basin.tableland.xyz/vaults/api25.test/events) |
+| api28.test | [Events](https://basin.tableland.xyz/vaults/api28.test/events) |
 
 ### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
 
