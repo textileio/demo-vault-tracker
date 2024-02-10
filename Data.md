@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-09
+Last updated: 2024-02-10
 
 ## Vaults by owner
 
@@ -134,4 +134,10 @@ Last updated: 2024-02-09
 | avichalpfarcaster.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster.chain_events/events) |
 | avichalpfarcaster2.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster2.chain_events/events) |
 | avichalpfarcaster3.chain_events | [Events](https://basin.tableland.xyz/vaults/avichalpfarcaster3.chain_events/events) |
+
+### [0x70F87E95B55F8b713205994aB6cC5E1F8114ee3b](https://basin.tableland.xyz/vaults?account=0x70F87E95B55F8b713205994aB6cC5E1F8114ee3b)
+
+| Vault | Events |
+| --- | --- |
+| test_sig_3.fids | [Events](https://basin.tableland.xyz/vaults/test_sig_3.fids/events) |
 

@@ -121,6 +121,11 @@
                 "avichalpfarcaster2.chain_events",
                 "avichalpfarcaster3.chain_events"
             ]
+        },
+        {
+            "0x70F87E95B55F8b713205994aB6cC5E1F8114ee3b": [
+                "test_sig_3.fids"
+            ]
         }
     ],
     "runs": {
@@ -362,6 +367,17 @@
             "start_block": 1334176,
             "end_block": 1337054,
             "events_data": []
+        },
+        "1339933": {
+            "start_block": 1337055,
+            "end_block": 1339933,
+            "events_data": [
+                {
+                    "owner": "0x70F87E95B55F8b713205994aB6cC5E1F8114ee3b",
+                    "vault_hash": "c22f5e9b3b1e9fe828d970d3d001120b695f8cf12e360cbd65053e587da272df",
+                    "block_num": 1339792
+                }
+            ]
         }
     }
 }
