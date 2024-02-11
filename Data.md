@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-10
+Last updated: 2024-02-11
 
 ## Vaults by owner
 
@@ -108,6 +108,23 @@ Last updated: 2024-02-10
 | test_cast_2.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_2.fids/events) |
 | test_sig_1.signatures | [Events](https://basin.tableland.xyz/vaults/test_sig_1.signatures/events) |
 | test_sig_2.signatures | [Events](https://basin.tableland.xyz/vaults/test_sig_2.signatures/events) |
+| test_cast_docker_1.messages | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_1.messages/events) |
+| test_cast_docker_1.links | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_1.links/events) |
+| test_cast_docker_2.fnames | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_2.fnames/events) |
+| test_cast_docker_2.verifications | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_2.verifications/events) |
+| test_cast_docker_2.reactions | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_2.reactions/events) |
+| test_cast_docker_3.casts | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.casts/events) |
+| test_cast_docker_3.chain_events | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.chain_events/events) |
+| test_cast_docker_3.fids | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.fids/events) |
+| test_cast_docker_3.fnames | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.fnames/events) |
+| test_cast_docker_3.links | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.links/events) |
+| test_cast_docker_3.messages | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.messages/events) |
+| test_cast_docker_3.reactions | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.reactions/events) |
+| test_cast_docker_3.signers | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.signers/events) |
+| test_cast_docker_3.storage_allocations | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.storage_allocations/events) |
+| test_cast_docker_3.user_data | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.user_data/events) |
+| test_cast_docker_3.username_proofs | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.username_proofs/events) |
+| test_cast_docker_3.verifications | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.verifications/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 
@@ -140,4 +157,16 @@ Last updated: 2024-02-10
 | Vault | Events |
 | --- | --- |
 | test_sig_3.fids | [Events](https://basin.tableland.xyz/vaults/test_sig_3.fids/events) |
+
+### [0x000000000000000000000000000000000000dEaD](https://basin.tableland.xyz/vaults?account=0x000000000000000000000000000000000000dEaD)
+
+| Vault | Events |
+| --- | --- |
+| test_random_acct_2.test | [Events](https://basin.tableland.xyz/vaults/test_random_acct_2.test/events) |
+
+### [0xD3C952a5F153Af91a11bEa91DA2Dc2dD87f59Cef](https://basin.tableland.xyz/vaults?account=0xD3C952a5F153Af91a11bEa91DA2Dc2dD87f59Cef)
+
+| Vault | Events |
+| --- | --- |
+| test_random_acct.test | [Events](https://basin.tableland.xyz/vaults/test_random_acct.test/events) |
 
