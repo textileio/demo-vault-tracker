@@ -511,6 +511,11 @@
             "start_block": 1342820,
             "end_block": 1345696,
             "events_data": []
+        },
+        "1348577": {
+            "start_block": 1345697,
+            "end_block": 1348577,
+            "events_data": []
         }
     }
 }
