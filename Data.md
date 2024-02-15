@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-14
+Last updated: 2024-02-15
 
 ## Vaults by owner
 
@@ -186,4 +186,16 @@ Last updated: 2024-02-14
 | demo_farcaster.user_data | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.user_data/events) |
 | demo_farcaster.username_proofs | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.username_proofs/events) |
 | demo_farcaster.verifications | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.verifications/events) |
+| demo_farcaster_2.casts | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.casts/events) |
+| demo_farcaster_2.chain_events | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.chain_events/events) |
+| demo_farcaster_2.fids | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.fids/events) |
+| demo_farcaster_2.fnames | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.fnames/events) |
+| demo_farcaster_2.links | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.links/events) |
+| demo_farcaster_2.messages | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.messages/events) |
+| demo_farcaster_2.reactions | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.reactions/events) |
+| demo_farcaster_2.signers | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.signers/events) |
+| demo_farcaster_2.storage_allocations | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.storage_allocations/events) |
+| demo_farcaster_2.user_data | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.user_data/events) |
+| demo_farcaster_2.username_proofs | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.username_proofs/events) |
+| demo_farcaster_2.verifications | [Events](https://basin.tableland.xyz/vaults/demo_farcaster_2.verifications/events) |
 
