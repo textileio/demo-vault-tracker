@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-16
+Last updated: 2024-02-17
 
 ## Vaults by owner
 
@@ -125,6 +125,7 @@ Last updated: 2024-02-16
 | test_cast_docker_3.user_data | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.user_data/events) |
 | test_cast_docker_3.username_proofs | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.username_proofs/events) |
 | test_cast_docker_3.verifications | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.verifications/events) |
+| cache_long.test | [Events](https://basin.tableland.xyz/vaults/cache_long.test/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 

@@ -112,7 +112,8 @@
                 "test_cast_docker_3.storage_allocations",
                 "test_cast_docker_3.user_data",
                 "test_cast_docker_3.username_proofs",
-                "test_cast_docker_3.verifications"
+                "test_cast_docker_3.verifications",
+                "cache_long.test"
             ]
         },
         {
@@ -681,6 +682,17 @@
             "start_block": 1354336,
             "end_block": 1357215,
             "events_data": []
+        },
+        "1360095": {
+            "start_block": 1357216,
+            "end_block": 1360095,
+            "events_data": [
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "7427e0dfc006ff6a333e24862c07affb62d748f9787c8984295a034861947cc4",
+                    "block_num": 1359980
+                }
+            ]
         }
     }
 }
