@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-19
+Last updated: 2024-02-20
 
 ## Vaults by owner
 
@@ -53,6 +53,9 @@ Last updated: 2024-02-19
 | api24.test | [Events](https://basin.tableland.xyz/vaults/api24.test/events) |
 | api25.test | [Events](https://basin.tableland.xyz/vaults/api25.test/events) |
 | api28.test | [Events](https://basin.tableland.xyz/vaults/api28.test/events) |
+| api30.test | [Events](https://basin.tableland.xyz/vaults/api30.test/events) |
+| api31.test | [Events](https://basin.tableland.xyz/vaults/api31.test/events) |
+| api34.test | [Events](https://basin.tableland.xyz/vaults/api34.test/events) |
 
 ### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
 
@@ -126,6 +129,7 @@ Last updated: 2024-02-19
 | test_cast_docker_3.username_proofs | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.username_proofs/events) |
 | test_cast_docker_3.verifications | [Events](https://basin.tableland.xyz/vaults/test_cast_docker_3.verifications/events) |
 | cache_long.test | [Events](https://basin.tableland.xyz/vaults/cache_long.test/events) |
+| cache_long_2.test | [Events](https://basin.tableland.xyz/vaults/cache_long_2.test/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 

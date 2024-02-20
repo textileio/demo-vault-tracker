@@ -44,7 +44,10 @@
                 "api23.test",
                 "api24.test",
                 "api25.test",
-                "api28.test"
+                "api28.test",
+                "api30.test",
+                "api31.test",
+                "api34.test"
             ]
         },
         {
@@ -113,7 +116,8 @@
                 "test_cast_docker_3.user_data",
                 "test_cast_docker_3.username_proofs",
                 "test_cast_docker_3.verifications",
-                "cache_long.test"
+                "cache_long.test",
+                "cache_long_2.test"
             ]
         },
         {
@@ -703,6 +707,32 @@
             "start_block": 1362980,
             "end_block": 1365857,
             "events_data": []
+        },
+        "1368734": {
+            "start_block": 1365858,
+            "end_block": 1368734,
+            "events_data": [
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "ae2b2268a097475b2c68d954dfc4cdd37cca65981da41c0e2525f5c9540929d1",
+                    "block_num": 1367580
+                },
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "ee9dea53eb8f9ddc7d416f69eab61b3028b970bd01255e8f236462e24c052bbc",
+                    "block_num": 1367580
+                },
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "5ea9742040c116a62f072edf8fe3106c99640f2b0256f349780f5284d151ca31",
+                    "block_num": 1368096
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "62c5da8b92a5188ed7e111679ee7a5ba36ca72ca81a2e06d9eaa93e2a40e2c31",
+                    "block_num": 1368128
+                }
+            ]
         }
     }
 }
