@@ -117,7 +117,12 @@
                 "test_cast_docker_3.username_proofs",
                 "test_cast_docker_3.verifications",
                 "cache_long.test",
-                "cache_long_2.test"
+                "cache_long_2.test",
+                "my_vault.example",
+                "my_vault.test",
+                "my_vault.data",
+                "my_vault.example_data",
+                "test_vault.data"
             ]
         },
         {
@@ -763,6 +768,37 @@
             "start_block": 1383140,
             "end_block": 1386017,
             "events_data": []
+        },
+        "1388895": {
+            "start_block": 1386018,
+            "end_block": 1388895,
+            "events_data": [
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "a6b6f3798649a0e0446b06f35b819c18cdfc7e8020a637c618c59a8c012288f7",
+                    "block_num": 1388676
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "33181248f212a892fac0ef9f3c17b2ff493f8845aeb5b66672b02b2847d7096f",
+                    "block_num": 1388681
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "43c295d3e0c5dd775f70ed7d35dd28df58c787bdb5176cf700f9297cfb2e51c4",
+                    "block_num": 1388685
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "0acfb50043e912d0777879def6cab7ed619f292eac7d1fe11a814ec253d14ad4",
+                    "block_num": 1388686
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "793643af45f28819235f72ae11c1b13ac72994cf75e9c4e5c576704f72db75d2",
+                    "block_num": 1388687
+                }
+            ]
         }
     }
 }
