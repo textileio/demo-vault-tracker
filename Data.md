@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-02-27
+Last updated: 2024-02-28
 
 ## Vaults by owner
 
@@ -56,6 +56,7 @@ Last updated: 2024-02-27
 | api30.test | [Events](https://basin.tableland.xyz/vaults/api30.test/events) |
 | api31.test | [Events](https://basin.tableland.xyz/vaults/api31.test/events) |
 | api34.test | [Events](https://basin.tableland.xyz/vaults/api34.test/events) |
+| api35.test | [Events](https://basin.tableland.xyz/vaults/api35.test/events) |
 
 ### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
 
@@ -135,6 +136,8 @@ Last updated: 2024-02-27
 | my_vault.data | [Events](https://basin.tableland.xyz/vaults/my_vault.data/events) |
 | my_vault.example_data | [Events](https://basin.tableland.xyz/vaults/my_vault.example_data/events) |
 | test_vault.data | [Events](https://basin.tableland.xyz/vaults/test_vault.data/events) |
+| testing_signer.data | [Events](https://basin.tableland.xyz/vaults/testing_signer.data/events) |
+| test_signer_impl.data | [Events](https://basin.tableland.xyz/vaults/test_signer_impl.data/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 
