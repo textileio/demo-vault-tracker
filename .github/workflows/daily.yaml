@@ -42,4 +42,6 @@ jobs:
               with:
                   commit_message: "chore: daily vaults update"
                   file_pattern: "Data.md state.json"
-                  commit_user_name: "vaults[bot]"
+                  commit_user_name: "github-actions[bot]"
+                  commit_user_email: "github-actions[bot]@users.noreply.github.com"
+                  commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
