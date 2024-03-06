@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-05
+Last updated: 2024-03-06
 
 ## Vaults by owner
 
@@ -63,6 +63,8 @@ Last updated: 2024-03-05
 | api39.test | [Events](https://basin.tableland.xyz/vaults/api39.test/events) |
 | api40.test | [Events](https://basin.tableland.xyz/vaults/api40.test/events) |
 | api41.test | [Events](https://basin.tableland.xyz/vaults/api41.test/events) |
+| api42.test | [Events](https://basin.tableland.xyz/vaults/api42.test/events) |
+| api43.test | [Events](https://basin.tableland.xyz/vaults/api43.test/events) |
 
 ### [0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7](https://basin.tableland.xyz/vaults?account=0x64251043A35ab5D11f04111B8BdF7C03BE9cF0e7)
 
@@ -148,6 +150,11 @@ Last updated: 2024-03-05
 | test_pg.stream_1 | [Events](https://basin.tableland.xyz/vaults/test_pg.stream_1/events) |
 | test_pg.stream_3 | [Events](https://basin.tableland.xyz/vaults/test_pg.stream_3/events) |
 | test_pg.stream_5 | [Events](https://basin.tableland.xyz/vaults/test_pg.stream_5/events) |
+| discord_bot.state | [Events](https://basin.tableland.xyz/vaults/discord_bot.state/events) |
+| discord_bot_state.db | [Events](https://basin.tableland.xyz/vaults/discord_bot_state.db/events) |
+| discord_state.test | [Events](https://basin.tableland.xyz/vaults/discord_state.test/events) |
+| new_discord_test.db | [Events](https://basin.tableland.xyz/vaults/new_discord_test.db/events) |
+| another_tesdt.db | [Events](https://basin.tableland.xyz/vaults/another_tesdt.db/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 
@@ -228,4 +235,16 @@ Last updated: 2024-03-05
 | --- | --- |
 | test_signer_impl.data1 | [Events](https://basin.tableland.xyz/vaults/test_signer_impl.data1/events) |
 | test_signer_impl_s.data | [Events](https://basin.tableland.xyz/vaults/test_signer_impl_s.data/events) |
+
+### [0xc2c3d5FFB6d60FFA48abBAFadCEfDf2bD4FD1905](https://basin.tableland.xyz/vaults?account=0xc2c3d5FFB6d60FFA48abBAFadCEfDf2bD4FD1905)
+
+| Vault | Events |
+| --- | --- |
+| sql_logs_bot_state.db | [Events](https://basin.tableland.xyz/vaults/sql_logs_bot_state.db/events) |
+
+### [0x7A5C69F673f1a77444387731d2e49F2027605D0E](https://basin.tableland.xyz/vaults?account=0x7A5C69F673f1a77444387731d2e49F2027605D0E)
+
+| Vault | Events |
+| --- | --- |
+| test_run.db | [Events](https://basin.tableland.xyz/vaults/test_run.db/events) |
 
