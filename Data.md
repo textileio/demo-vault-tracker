@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-08
+Last updated: 2024-03-09
 
 ## Vaults by owner
 
@@ -155,6 +155,9 @@ Last updated: 2024-03-08
 | discord_state.test | [Events](https://basin.tableland.xyz/vaults/discord_state.test/events) |
 | new_discord_test.db | [Events](https://basin.tableland.xyz/vaults/new_discord_test.db/events) |
 | another_tesdt.db | [Events](https://basin.tableland.xyz/vaults/another_tesdt.db/events) |
+| demo_farcaster.multitable | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.multitable/events) |
+| demo_farcaster.multitable_2 | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.multitable_2/events) |
+| multitable.test | [Events](https://basin.tableland.xyz/vaults/multitable.test/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 

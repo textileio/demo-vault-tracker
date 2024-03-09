@@ -142,7 +142,10 @@
                 "discord_bot_state.db",
                 "discord_state.test",
                 "new_discord_test.db",
-                "another_tesdt.db"
+                "another_tesdt.db",
+                "demo_farcaster.multitable",
+                "demo_farcaster.multitable_2",
+                "multitable.test"
             ]
         },
         {
@@ -1010,6 +1013,27 @@
             "start_block": 1414808,
             "end_block": 1417695,
             "events_data": []
+        },
+        "1420574": {
+            "start_block": 1417696,
+            "end_block": 1420574,
+            "events_data": [
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "44184a9519f44e423eac4d95a996cbe9ffa6a4faaaf41bdc1d9c9e312f47bfd9",
+                    "block_num": 1419861
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "51348134b49eb33bba8b611e56f486f5cd4d882bd7087060e32cbec3e93c44d5",
+                    "block_num": 1419882
+                },
+                {
+                    "owner": "0x78C61e68f9f985C43e36dD5ced3f5a24aD0c503e",
+                    "vault_hash": "7a7657d67bea92ad7fc88b82e0c25f3ab95904e2bddf40172fa9c8b30c4d2d31",
+                    "block_num": 1419913
+                }
+            ]
         }
     }
 }
