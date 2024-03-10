@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-09
+Last updated: 2024-03-10
 
 ## Vaults by owner
 
@@ -158,6 +158,7 @@ Last updated: 2024-03-09
 | demo_farcaster.multitable | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.multitable/events) |
 | demo_farcaster.multitable_2 | [Events](https://basin.tableland.xyz/vaults/demo_farcaster.multitable_2/events) |
 | multitable.test | [Events](https://basin.tableland.xyz/vaults/multitable.test/events) |
+| test1.data | [Events](https://basin.tableland.xyz/vaults/test1.data/events) |
 
 ### [0x61e7F088d1A049280C8De17c7237635F9AC3849e](https://basin.tableland.xyz/vaults?account=0x61e7F088d1A049280C8De17c7237635F9AC3849e)
 
@@ -250,4 +251,13 @@ Last updated: 2024-03-09
 | Vault | Events |
 | --- | --- |
 | test_run.db | [Events](https://basin.tableland.xyz/vaults/test_run.db/events) |
+
+### [0x3CC6c0Bd65a7a82F55f93B3209f1b05dFf5d31e1](https://basin.tableland.xyz/vaults?account=0x3CC6c0Bd65a7a82F55f93B3209f1b05dFf5d31e1)
+
+| Vault | Events |
+| --- | --- |
+| test_vault1.data | [Events](https://basin.tableland.xyz/vaults/test_vault1.data/events) |
+| test_vaul21.data | [Events](https://basin.tableland.xyz/vaults/test_vaul21.data/events) |
+| my_test_vault.data | [Events](https://basin.tableland.xyz/vaults/my_test_vault.data/events) |
+| my_test_vault2.data | [Events](https://basin.tableland.xyz/vaults/my_test_vault2.data/events) |
 
