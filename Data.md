@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-10
+Last updated: 2024-03-11
 
 ## Vaults by owner
 
@@ -260,4 +260,87 @@ Last updated: 2024-03-10
 | test_vaul21.data | [Events](https://basin.tableland.xyz/vaults/test_vaul21.data/events) |
 | my_test_vault.data | [Events](https://basin.tableland.xyz/vaults/my_test_vault.data/events) |
 | my_test_vault2.data | [Events](https://basin.tableland.xyz/vaults/my_test_vault2.data/events) |
+| alex_vault3.data | [Events](https://basin.tableland.xyz/vaults/alex_vault3.data/events) |
+
+### [0xad068086837e9Da0404a1f0F3fF8bBEaE3442A12](https://basin.tableland.xyz/vaults?account=0xad068086837e9Da0404a1f0F3fF8bBEaE3442A12)
+
+| Vault | Events |
+| --- | --- |
+| cat2.data | [Events](https://basin.tableland.xyz/vaults/cat2.data/events) |
+| cat3.data | [Events](https://basin.tableland.xyz/vaults/cat3.data/events) |
+| filcoiner.data | [Events](https://basin.tableland.xyz/vaults/filcoiner.data/events) |
+
+### [0x0E029ecCFd8bb5dEfc6793Cf971DD41DA946b020](https://basin.tableland.xyz/vaults?account=0x0E029ecCFd8bb5dEfc6793Cf971DD41DA946b020)
+
+| Vault | Events |
+| --- | --- |
+| alex_vault1.data | [Events](https://basin.tableland.xyz/vaults/alex_vault1.data/events) |
+
+### [0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266](https://basin.tableland.xyz/vaults?account=0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266)
+
+| Vault | Events |
+| --- | --- |
+| alex_vault.data | [Events](https://basin.tableland.xyz/vaults/alex_vault.data/events) |
+| bob_vault.data | [Events](https://basin.tableland.xyz/vaults/bob_vault.data/events) |
+| alexVaultID.data | [Events](https://basin.tableland.xyz/vaults/alexVaultID.data/events) |
+| alexVaultID2.data | [Events](https://basin.tableland.xyz/vaults/alexVaultID2.data/events) |
+| alexVaultID3.data | [Events](https://basin.tableland.xyz/vaults/alexVaultID3.data/events) |
+| alexVaultID4.data | [Events](https://basin.tableland.xyz/vaults/alexVaultID4.data/events) |
+
+### [0x24715460e2a524725525c46F4A20f4C973e36d33](https://basin.tableland.xyz/vaults?account=0x24715460e2a524725525c46F4A20f4C973e36d33)
+
+| Vault | Events |
+| --- | --- |
+| new1.data | [Events](https://basin.tableland.xyz/vaults/new1.data/events) |
+| new12.data | [Events](https://basin.tableland.xyz/vaults/new12.data/events) |
+| dd.data | [Events](https://basin.tableland.xyz/vaults/dd.data/events) |
+| yummyhere.data | [Events](https://basin.tableland.xyz/vaults/yummyhere.data/events) |
+| oolaa.data | [Events](https://basin.tableland.xyz/vaults/oolaa.data/events) |
+| cooliohere.data | [Events](https://basin.tableland.xyz/vaults/cooliohere.data/events) |
+| vaultWeirdo.data | [Events](https://basin.tableland.xyz/vaults/vaultWeirdo.data/events) |
+| IOILITTLEBIG.data | [Events](https://basin.tableland.xyz/vaults/IOILITTLEBIG.data/events) |
+| illithel.data | [Events](https://basin.tableland.xyz/vaults/illithel.data/events) |
+| eveyjk.data | [Events](https://basin.tableland.xyz/vaults/eveyjk.data/events) |
+| jigglywiggly.data | [Events](https://basin.tableland.xyz/vaults/jigglywiggly.data/events) |
+| powwow.data | [Events](https://basin.tableland.xyz/vaults/powwow.data/events) |
+| jigglywigglyg.data | [Events](https://basin.tableland.xyz/vaults/jigglywigglyg.data/events) |
+| easyl.data | [Events](https://basin.tableland.xyz/vaults/easyl.data/events) |
+| easyk.data | [Events](https://basin.tableland.xyz/vaults/easyk.data/events) |
+| easyo.data | [Events](https://basin.tableland.xyz/vaults/easyo.data/events) |
+| easy2.data | [Events](https://basin.tableland.xyz/vaults/easy2.data/events) |
+| easy3.data | [Events](https://basin.tableland.xyz/vaults/easy3.data/events) |
+| pow.data | [Events](https://basin.tableland.xyz/vaults/pow.data/events) |
+| cat.data | [Events](https://basin.tableland.xyz/vaults/cat.data/events) |
+| dog.data | [Events](https://basin.tableland.xyz/vaults/dog.data/events) |
+| bunny.data | [Events](https://basin.tableland.xyz/vaults/bunny.data/events) |
+| rabbit.data | [Events](https://basin.tableland.xyz/vaults/rabbit.data/events) |
+| a.data | [Events](https://basin.tableland.xyz/vaults/a.data/events) |
+| hello.data | [Events](https://basin.tableland.xyz/vaults/hello.data/events) |
+| abc.data | [Events](https://basin.tableland.xyz/vaults/abc.data/events) |
+| rat1.data | [Events](https://basin.tableland.xyz/vaults/rat1.data/events) |
+| rat2.data | [Events](https://basin.tableland.xyz/vaults/rat2.data/events) |
+| filecoinisawesome.data | [Events](https://basin.tableland.xyz/vaults/filecoinisawesome.data/events) |
+| opah.data | [Events](https://basin.tableland.xyz/vaults/opah.data/events) |
+| ethoxfordiscoool.data | [Events](https://basin.tableland.xyz/vaults/ethoxfordiscoool.data/events) |
+| oxfordcool.data | [Events](https://basin.tableland.xyz/vaults/oxfordcool.data/events) |
+
+### [0x5FbDB2315678afecb367f032d93F642f64180aa3](https://basin.tableland.xyz/vaults?account=0x5FbDB2315678afecb367f032d93F642f64180aa3)
+
+| Vault | Events |
+| --- | --- |
+| alex_vault4.data | [Events](https://basin.tableland.xyz/vaults/alex_vault4.data/events) |
+| alex_vault5.data | [Events](https://basin.tableland.xyz/vaults/alex_vault5.data/events) |
+
+### [0xdf104FE56F109EaB5963B00C323cBa3FF563DCC0](https://basin.tableland.xyz/vaults?account=0xdf104FE56F109EaB5963B00C323cBa3FF563DCC0)
+
+| Vault | Events |
+| --- | --- |
+| alex_vault6.data | [Events](https://basin.tableland.xyz/vaults/alex_vault6.data/events) |
+
+### [0x21cbE0c7C3c8E20408a3241748Fc225813822990](https://basin.tableland.xyz/vaults?account=0x21cbE0c7C3c8E20408a3241748Fc225813822990)
+
+| Vault | Events |
+| --- | --- |
+| ABA.data | [Events](https://basin.tableland.xyz/vaults/ABA.data/events) |
+| ABA2.data | [Events](https://basin.tableland.xyz/vaults/ABA2.data/events) |
 
