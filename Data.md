@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-15
+Last updated: 2024-03-16
 
 ## Vaults by owner
 
@@ -348,4 +348,10 @@ Last updated: 2024-03-15
 | --- | --- |
 | ABA.data | [Events](https://basin.tableland.xyz/vaults/ABA.data/events) |
 | ABA2.data | [Events](https://basin.tableland.xyz/vaults/ABA2.data/events) |
+
+### [0xD9c68cbef53336915B152703eD6a1fC3274C389B](https://basin.tableland.xyz/vaults?account=0xD9c68cbef53336915B152703eD6a1fC3274C389B)
+
+| Vault | Events |
+| --- | --- |
+| qod_poc_vault.data | [Events](https://basin.tableland.xyz/vaults/qod_poc_vault.data/events) |
 
