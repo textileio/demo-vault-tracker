@@ -1,6 +1,6 @@
 # Basin Vaults Tracker
 
-Last updated: 2024-03-16
+Last updated: 2024-03-17
 
 ## Vaults by owner
 
@@ -354,4 +354,20 @@ Last updated: 2024-03-16
 | Vault | Events |
 | --- | --- |
 | qod_poc_vault.data | [Events](https://basin.tableland.xyz/vaults/qod_poc_vault.data/events) |
+
+### [0x9Da44ADC3ca977495b9110716EF31842c0F7773e](https://basin.tableland.xyz/vaults?account=0x9Da44ADC3ca977495b9110716EF31842c0F7773e)
+
+| Vault | Events |
+| --- | --- |
+| vault.math | [Events](https://basin.tableland.xyz/vaults/vault.math/events) |
+
+### [0x6C53e96Fb15e342ce92306B2d81C6253eEba9C1d](https://basin.tableland.xyz/vaults?account=0x6C53e96Fb15e342ce92306B2d81C6253eEba9C1d)
+
+| Vault | Events |
+| --- | --- |
+| test_vault.hello | [Events](https://basin.tableland.xyz/vaults/test_vault.hello/events) |
+| test.hello | [Events](https://basin.tableland.xyz/vaults/test.hello/events) |
+| vault.ewan | [Events](https://basin.tableland.xyz/vaults/vault.ewan/events) |
+| vault.mathis | [Events](https://basin.tableland.xyz/vaults/vault.mathis/events) |
+| vault.mathi | [Events](https://basin.tableland.xyz/vaults/vault.mathi/events) |
 
