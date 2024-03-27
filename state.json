@@ -56,7 +56,9 @@
                 "api40.test",
                 "api41.test",
                 "api42.test",
-                "api43.test"
+                "api43.test",
+                "api1.test",
+                "api2.test"
             ]
         },
         {
@@ -1558,6 +1560,22 @@
             "start_block": 1466659,
             "end_block": 1469535,
             "events_data": []
+        },
+        "1472414": {
+            "start_block": 1469536,
+            "end_block": 1472414,
+            "events_data": [
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "1cc99fe369a1142ff9c7d9270df83599e1642d769cf43bef58ad828be74f3130",
+                    "block_num": 1471998
+                },
+                {
+                    "owner": "0x00FEEc1fC91074f5F38a8FC5129dbc4FD204eca6",
+                    "vault_hash": "6bb73825449a9c3f6b09dd7881490b1c1a91262e420cac71d798b83da9b9a38e",
+                    "block_num": 1471999
+                }
+            ]
         }
     }
 }
